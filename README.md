@@ -11,7 +11,7 @@
 > 
 > wget https://raw.githubusercontent.com/lovehifi/Tidal-Connect-RopieeeXL/main/tidalservice.tar.gz
 >
-#2./ **Download Aarch64 Lib**
+#2./ **Download Aarch64 package dependencies**
 > wget https://raw.githubusercontent.com/lovehifi/Tidal-Connect-RopieeeXL/main/tidallibs.tgz
 > 
 > 
@@ -25,7 +25,7 @@
 > 
 ####
 ####
-#4./ **Extract Aarch64 Lib**
+#4./ **Extract Aarch64 package dependencies**
 > tar -xf /root/tidallibs.tgz -C /usr/lib/
 >
 
