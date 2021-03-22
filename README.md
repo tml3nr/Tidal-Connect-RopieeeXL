@@ -25,7 +25,7 @@
 > 
 ####
 ####
-#4./ **Extract Linux Lib**
+#4./ **Extract Aarch64 Lib**
 > tar -xf /root/tidallibs.tgz -C /usr/lib/
 >
 
