@@ -32,11 +32,11 @@
 #5./ **Check device**
 > /opt/tidal/pa_devs/bin/ifi-pa-devs-get
 > 
-> Copy device name, sample: snd_rpi_rpi_dac: RPi-DAC HiFi pcm1794a-codec-0 (hw:1,0)
+Copy device name, sample: snd_rpi_rpi_dac: RPi-DAC HiFi pcm1794a-codec-0 (hw:1,0)
 > 
-> WinCSP edit this file or vi /etc/systemd/system/tidal.service
+WinCSP edit this file or vi /etc/systemd/system/tidal.service
 > 
-> replace to --playback-device, sample: --playback-device "snd_rpi_rpi_dac: RPi-DAC HiFi pcm1794a-codec-0 (hw:1,0)" \
+To replace --playback-device, sample: --playback-device "snd_rpi_rpi_dac: RPi-DAC HiFi pcm1794a-codec-0 (hw:1,0)" \
 > 
 ####
 
